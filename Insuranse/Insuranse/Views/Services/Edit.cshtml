@@ -1,0 +1,59 @@
+﻿@model Insurance.Models.Service
+
+<h2>Редактировать услугу</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Type"></label>
+        <select asp-for="Type" class="form-control" id="Type">
+            <option value="">Выберите тип</option>
+        </select>
+        <span asp-validation-for="Type" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control" maxlength="500" rows="5"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+    <a asp-action="Manage" class="btn btn-secondary">Назад</a>
+</form>
+
+@section Scripts {
+    <script>
+        const types = [
+            "ДМС",
+            "Имущество",
+            "КАСКО",
+            "ОСАГО",
+            "Гражданская ответственность",
+            "Страхование вкладов",
+            "Страхование жизни"
+        ];
+
+        const typeSelect = document.getElementById("Type");
+        types.forEach(type => {
+            const option = document.createElement("option");
+            option.value = type;
+            option.textContent = type;
+            typeSelect.appendChild(option);
+        });
+
+        // Установить выбранное значение при редактировании
+        const selectedType = "@Model.Type";
+        if (selectedType) {
+            typeSelect.value = selectedType;
+        }
+    </script>
+}

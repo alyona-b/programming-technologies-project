@@ -1,0 +1,45 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<Insurance.Models.ApplicationUser> SignInManager
+@inject UserManager<Insurance.Models.ApplicationUser> UserManager
+
+<div class="content">
+    <h1>Страховое агентство</h1>
+    <p>
+        @{
+            if (User.Identity.IsAuthenticated)
+            {
+                var user = await UserManager.GetUserAsync(User);
+                var roles = await UserManager.GetRolesAsync(user);
+                <span>Вы @(roles.FirstOrDefault() ?? "пользователь")</span>
+            }
+            else
+            {
+                <span>Добро пожаловать!</span>
+            }
+        }
+    </p>
+
+    <div class="mb-4">
+        <h2>Справочник страховых услуг</h2>
+        <p>Информация о доступных страховых услугах и их особенностях.</p>
+        <a asp-controller="Services" asp-action="Index" class="btn-primary">Перейти к справочнику</a>
+        @if ((bool)(ViewData["IsAdminOrAgent"] ?? false))
+        {
+            <a asp-controller="Contracts" asp-action="Index" class="btn btn-primary">Управление договорами</a>
+        }
+    </div>
+
+    <div>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <form method="post" asp-controller="Account" asp-action="Logout">
+                <button type="submit">Выйти</button>
+            </form>
+        }
+        else
+        {
+            <a asp-controller="Account" asp-action="Login" class="btn-primary">Войти</a>
+            <a asp-controller="Account" asp-action="Register" class="btn-primary">Регистрация</a>
+        }
+    </div>
+</div>
