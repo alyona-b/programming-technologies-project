@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Insurance.Models.Client>
+
+<h2>Справочник клиентов</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Имя</th>
+            <th>ИНН</th>
+            <th>Телефон</th>
+            <th>Email</th>
+            <th>Тип клиента</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var client in Model)
+        {
+            <tr>
+                <td>@client.Name</td>
+                <td>@client.TaxId</td>
+                <td>@client.PhoneNumber</td>
+                <td>@client.Email</td>
+                <td>@client.UserType</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Home" asp-action="Index" class="btn btn-secondary mt-3">Назад</a>

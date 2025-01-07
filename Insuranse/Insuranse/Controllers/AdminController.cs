@@ -70,7 +70,18 @@ namespace Insurance.Controllers
             var result = await _userManager.AddToRoleAsync(user, newRole);
             if (result.Succeeded)
             {
-                // Если роль "Агент", добавляем данные в таблицу Agents
+                // Удаляем пользователя из таблицы Clients, если он переводится на роль "Агент" или "Администратор"
+                if (newRole == "Агент" || newRole == "Администратор")
+                {
+                    var client = _context.Clients.FirstOrDefault(c => c.Email == user.Email);
+                    if (client != null)
+                    {
+                        _context.Clients.Remove(client);
+                        await _context.SaveChangesAsync();
+                    }
+                }
+
+                // Если новая роль "Агент", добавляем в таблицу Agents, если данных там ещё нет
                 if (newRole == "Агент")
                 {
                     var existingAgent = _context.Agents.FirstOrDefault(a => a.Email == user.Email);
@@ -86,6 +97,11 @@ namespace Insurance.Controllers
                         await _context.SaveChangesAsync();
                     }
                 }
+
+                // Ручное обновление роли в AspNetUsers
+                user.Role = newRole;
+                _context.Users.Update(user);
+                await _context.SaveChangesAsync();
 
                 return RedirectToAction("ManageUsers");
             }

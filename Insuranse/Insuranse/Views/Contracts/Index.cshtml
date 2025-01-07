@@ -3,15 +3,17 @@
 <h2>Договора</h2>
 
 <a asp-action="Create" class="btn btn-primary mb-3">Создать договор</a>
+<a asp-action="Search" class="btn btn-secondary">Поиск договоров</a>
 
 <table class="table">
     <thead>
         <tr>
             <th>Номер договора</th>
+            <th>Тип услуги</th>
             <th>Страховая выплата</th>
             <th>Статус</th>
-            <th>Клиент</th> 
-            <th>Агент</th> 
+            <th>Клиент</th>
+            <th>Агент</th>
             <th>Действия</th>
         </tr>
     </thead>
@@ -20,6 +22,7 @@
         {
             <tr>
                 <td>@contract.ContractNumber</td>
+                <td>@contract.Service?.Name</td>
                 <td>@contract.Payout.ToString("F2")</td>
                 <td>@contract.Status</td>
                 <td>@contract.Client?.Name</td>

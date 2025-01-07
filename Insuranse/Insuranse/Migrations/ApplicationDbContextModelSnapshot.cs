@@ -181,8 +181,17 @@ namespace Insuranse.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("varchar(256)");
 
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<decimal>("Payout")
                         .HasColumnType("decimal(65,30)");
+
+                    b.Property<int>("ServiceId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime(6)");
 
                     b.Property<string>("Status")
                         .IsRequired()
@@ -193,6 +202,8 @@ namespace Insuranse.Migrations
                     b.HasIndex("AgentId");
 
                     b.HasIndex("ClientId");
+
+                    b.HasIndex("ServiceId");
 
                     b.ToTable("Contracts");
                 });
@@ -207,7 +218,8 @@ namespace Insuranse.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("varchar(256)");
+                        .HasMaxLength(2147483647)
+                        .HasColumnType("LONGTEXT");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -371,9 +383,17 @@ namespace Insuranse.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Insurance.Models.Service", "Service")
+                        .WithMany()
+                        .HasForeignKey("ServiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Agent");
 
                     b.Navigation("Client");
+
+                    b.Navigation("Service");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

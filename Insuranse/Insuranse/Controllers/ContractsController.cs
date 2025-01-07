@@ -20,23 +20,28 @@ namespace Insurance.Controllers
         public async Task<IActionResult> Index()
         {
             var contracts = await _context.Contracts
-                .Include(c => c.Client) // Жадная загрузка клиента
-                .Include(c => c.Agent) // Жадная загрузка агента
+                .Include(c => c.Client)  // Жадная загрузка клиента
+                .Include(c => c.Agent)   // Жадная загрузка агента
+                .Include(c => c.Service) // Жадная загрузка услуги
                 .ToListAsync();
 
             return View(contracts);
         }
 
-
         public IActionResult Create()
         {
+            var model = new Contract
+            {
+                StartDate = DateTime.Now,
+                EndDate = DateTime.Now.AddDays(1)
+            };
+
             LoadStatusDropdown();
             LoadClientsDropdown();
-            LoadAgentsDropdown(); // Загрузка списка агентов
-
-            return View(new Contract());
+            LoadAgentsDropdown();
+            LoadServicesDropdown();
+            return View(model);
         }
-
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -67,6 +72,29 @@ namespace Insurance.Controllers
                 LoadStatusDropdown();
                 LoadClientsDropdown();
                 LoadAgentsDropdown();
+                LoadServicesDropdown();
+                return View(contract);
+            }
+
+            // Проверка дат начала и окончания
+            if (contract.StartDate == null || contract.EndDate == null)
+            {
+                ModelState.AddModelError("StartDate", "Дата начала обязательна.");
+                ModelState.AddModelError("EndDate", "Дата окончания обязательна.");
+                LoadStatusDropdown();
+                LoadClientsDropdown();
+                LoadAgentsDropdown();
+                LoadServicesDropdown();
+                return View(contract);
+            }
+
+            if (contract.StartDate > contract.EndDate)
+            {
+                ModelState.AddModelError("EndDate", "Дата окончания не может быть раньше даты начала.");
+                LoadStatusDropdown();
+                LoadClientsDropdown();
+                LoadAgentsDropdown();
+                LoadServicesDropdown();
                 return View(contract);
             }
 
@@ -78,6 +106,7 @@ namespace Insurance.Controllers
                 LoadStatusDropdown();
                 LoadClientsDropdown();
                 LoadAgentsDropdown();
+                LoadServicesDropdown();
                 return View(contract);
             }
 
@@ -90,6 +119,7 @@ namespace Insurance.Controllers
                 LoadStatusDropdown();
                 LoadClientsDropdown();
                 LoadAgentsDropdown();
+                LoadServicesDropdown();
                 return View(contract);
             }
 
@@ -101,6 +131,7 @@ namespace Insurance.Controllers
                 LoadStatusDropdown();
                 LoadClientsDropdown();
                 LoadAgentsDropdown();
+                LoadServicesDropdown();
                 return View(contract);
             }
 
@@ -113,6 +144,32 @@ namespace Insurance.Controllers
                 LoadStatusDropdown();
                 LoadClientsDropdown();
                 LoadAgentsDropdown();
+                LoadServicesDropdown();
+                return View(contract);
+            }
+
+            // Проверка, указана ли услуга
+            if (contract.ServiceId == 0)
+            {
+                ModelState.AddModelError("ServiceId", "Услуга обязательна.");
+                Console.WriteLine("Ошибка: ServiceId не указан.");
+                LoadStatusDropdown();
+                LoadClientsDropdown();
+                LoadAgentsDropdown();
+                LoadServicesDropdown();
+                return View(contract);
+            }
+
+            // Проверка существования услуги в базе данных
+            contract.Service = await _context.Services.FindAsync(contract.ServiceId);
+            if (contract.Service == null)
+            {
+                ModelState.AddModelError("ServiceId", "Услуга не найдена.");
+                Console.WriteLine($"Ошибка: Услуга с ID {contract.ServiceId} не найдена в базе данных.");
+                LoadStatusDropdown();
+                LoadClientsDropdown();
+                LoadAgentsDropdown();
+                LoadServicesDropdown();
                 return View(contract);
             }
 
@@ -132,16 +189,26 @@ namespace Insurance.Controllers
                 LoadStatusDropdown();
                 LoadClientsDropdown();
                 LoadAgentsDropdown();
+                LoadServicesDropdown();
                 return View(contract);
             }
         }
 
         public async Task<IActionResult> Edit(int id)
         {
-            var contract = await _context.Contracts.FindAsync(id);
-            if (contract == null) return NotFound();
+            var contract = await _context.Contracts
+                .AsNoTracking()
+                .FirstOrDefaultAsync(c => c.Id == id);
+
+            if (contract == null)
+            {
+                return NotFound();
+            }
 
             LoadStatusDropdown();
+            LoadClientsDropdown();
+            LoadAgentsDropdown();
+            LoadServicesDropdown();
             return View(contract);
         }
 
@@ -149,14 +216,45 @@ namespace Insurance.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Contract contract)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
+            {
+                LoadStatusDropdown();
+                LoadClientsDropdown();
+                LoadAgentsDropdown();
+                LoadServicesDropdown();
+                return View(contract);
+            }
+
+            if (contract.StartDate > contract.EndDate)
+            {
+                ModelState.AddModelError("EndDate", "Дата окончания не может быть раньше даты начала.");
+                LoadStatusDropdown();
+                LoadClientsDropdown();
+                LoadAgentsDropdown();
+                LoadServicesDropdown();
+                return View(contract);
+            }
+
+            try
             {
                 _context.Contracts.Update(contract);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Contracts.Any(e => e.Id == contract.Id))
+                {
+                    return NotFound();
+                }
+
+                ModelState.AddModelError("", "Ошибка сохранения изменений. Попробуйте снова.");
+            }
 
             LoadStatusDropdown();
+            LoadClientsDropdown();
+            LoadAgentsDropdown();
+            LoadServicesDropdown();
             return View(contract);
         }
 
@@ -188,12 +286,12 @@ namespace Insurance.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-
-
         public async Task<IActionResult> Details(int id)
         {
             var contract = await _context.Contracts
-                .Include(c => c.Client) // Жадная загрузка клиента
+                .Include(c => c.Client)
+                .Include(c => c.Agent)
+                .Include(c => c.Service)
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (contract == null)
@@ -202,6 +300,64 @@ namespace Insurance.Controllers
             }
 
             return View(contract);
+        }
+
+        public async Task<IActionResult> Search([FromQuery] Contract searchModel)
+        {
+            var query = _context.Contracts
+                .Include(c => c.Client)
+                .Include(c => c.Agent)
+                .Include(c => c.Service)
+                .AsQueryable();
+
+            // Применение фильтров
+            if (!string.IsNullOrWhiteSpace(searchModel.ContractNumber))
+                query = query.Where(c => c.ContractNumber.Contains(searchModel.ContractNumber));
+
+            if (searchModel.ServiceId > 0)
+                query = query.Where(c => c.ServiceId == searchModel.ServiceId);
+
+            if (searchModel.ClientId > 0)
+                query = query.Where(c => c.ClientId == searchModel.ClientId);
+
+            if (searchModel.AgentId > 0)
+                query = query.Where(c => c.AgentId == searchModel.AgentId);
+
+            if (searchModel.Payout > 0)
+                query = query.Where(c => c.Payout == searchModel.Payout);
+
+            if (!string.IsNullOrWhiteSpace(searchModel.Status))
+                query = query.Where(c => c.Status == searchModel.Status);
+
+            if (searchModel.StartDate != default)
+                query = query.Where(c => c.StartDate == searchModel.StartDate);
+
+            if (searchModel.EndDate != default)
+                query = query.Where(c => c.EndDate == searchModel.EndDate);
+
+            var contracts = await query.ToListAsync();
+
+            // Передача данных для сохранения значений формы
+            ViewData["ContractNumber"] = searchModel.ContractNumber;
+            ViewData["ServiceId"] = searchModel.ServiceId;
+            ViewData["ClientId"] = searchModel.ClientId;
+            ViewData["AgentId"] = searchModel.AgentId;
+            ViewData["Status"] = searchModel.Status;
+            ViewData["StartDate"] = searchModel.StartDate != default ? searchModel.StartDate.ToString("yyyy-MM-dd") : "";
+            ViewData["EndDate"] = searchModel.EndDate != default ? searchModel.EndDate.ToString("yyyy-MM-dd") : "";
+            ViewData["Payout"] = searchModel.Payout;
+
+            // Передача списков для выбора
+            ViewBag.Services = new SelectList(_context.Services, "Id", "Name");
+            ViewBag.Clients = new SelectList(_context.Clients, "Id", "Name");
+            ViewBag.Agents = new SelectList(_context.Agents, "Id", "Name");
+            ViewBag.Statuses = new SelectList(new List<SelectListItem>
+    {
+        new SelectListItem { Value = "Оплачено", Text = "Оплачено" },
+        new SelectListItem { Value = "Не оплачено", Text = "Не оплачено" }
+    }, "Value", "Text");
+
+            return View("Search", contracts);
         }
 
         private void LoadStatusDropdown()
@@ -263,6 +419,25 @@ namespace Insurance.Controllers
                 Console.WriteLine($"Agent: {agent.Text}, Id: {agent.Value}");
             }
         }
+
+        private void LoadServicesDropdown()
+        {
+            var services = _context.Services
+                .Select(s => new SelectListItem
+                {
+                    Value = s.Id.ToString(),
+                    Text = s.Name
+                })
+                .ToList();
+
+            if (!services.Any())
+            {
+                services.Add(new SelectListItem { Value = "", Text = "Нет доступных услуг" });
+            }
+
+            ViewData["Services"] = services;
+        }
+
 
     }
 }

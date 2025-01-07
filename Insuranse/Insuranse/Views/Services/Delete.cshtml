@@ -1,32 +1,13 @@
 ﻿@model Insurance.Models.Service
 
-<h2>Детали услуги</h2>
+<h2>Подтверждение удаления</h2>
 
-@{
-    var isAdminOrAgent = (bool)(ViewData["IsAdminOrAgent"] ?? false);
-}
+<p>Вы действительно хотите удалить услугу "<strong>@Model.Name</strong>"?</p>
 
 <div>
-    <dl class="row">
-        <dt class="col-sm-2">Название</dt>
-        <dd class="col-sm-10">@Model.Name</dd>
-
-        <dt class="col-sm-2">Тип</dt>
-        <dd class="col-sm-10">@Model.Type</dd>
-
-        <dt class="col-sm-2">Стоимость</dt>
-        <dd class="col-sm-10">@Model.Price.ToString("F2")</dd>
-
-        <dt class="col-sm-2">Описание</dt>
-        <dd class="col-sm-10">@Model.Description</dd>
-    </dl>
-</div>
-
-<div>
-    @if (isAdminOrAgent)
-    {
-        <a asp-action="Manage" class="btn btn-secondary">Управление</a>
-    }
-
-    <a asp-action="Index" class="btn btn-secondary">Назад</a>
+    <form asp-action="ConfirmDelete" asp-route-id="@Model.Id" method="post">
+        @Html.AntiForgeryToken()
+        <button type="submit" class="btn btn-danger">Удалить</button>
+        <a asp-action="Manage" class="btn btn-secondary">Отмена</a>
+    </form>
 </div>

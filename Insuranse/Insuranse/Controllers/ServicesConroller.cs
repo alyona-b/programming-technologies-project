@@ -105,25 +105,30 @@ namespace Insurance.Controllers
         }
 
         // Удаление услуги
+        // Страница подтверждения удаления
         [Authorize(Roles = "Администратор,Агент")]
         public async Task<IActionResult> Delete(int id)
         {
             var service = await _context.Services.FindAsync(id);
             if (service == null) return NotFound();
 
-            return View(service);
+            return View(service); // Отображаем страницу подтверждения
         }
 
+        // Выполнение удаления услуги
         [HttpPost]
         [Authorize(Roles = "Администратор,Агент")]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> ConfirmDelete(int id)
         {
             var service = await _context.Services.FindAsync(id);
             if (service == null) return NotFound();
+
             _context.Services.Remove(service);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Manage));
         }
+
 
         // Получение списка типов
         private List<string> GetTypes()

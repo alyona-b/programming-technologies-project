@@ -3,43 +3,31 @@
 @inject UserManager<Insurance.Models.ApplicationUser> UserManager
 
 <div class="content">
-    <h1>Страховое агентство</h1>
-    <p>
-        @{
-            if (User.Identity.IsAuthenticated)
-            {
-                var user = await UserManager.GetUserAsync(User);
-                var roles = await UserManager.GetRolesAsync(user);
-                <span>Вы @(roles.FirstOrDefault() ?? "пользователь")</span>
-            }
-            else
-            {
-                <span>Добро пожаловать!</span>
-            }
-        }
-    </p>
+    <div class="mb-4">
+        <h1>добро пожаловать во флекс страхование!</h1>
+        <p>
+            флекс страхование уже много лет успешно предоставляет широкий спектр страховых услуг, помогая клиентам защищать самое ценное: здоровье, имущество, бизнес и финансовую стабильность.
+        </p>
+        <h2>о компании</h2>
+        <p>
+            мы гордимся высоким уровнем профессионализма, прозрачностью условий и индивидуальным подходом к каждому клиенту. наша миссия — обеспечить вам спокойствие и уверенность в завтрашнем дне.
+        </p>
+        <ul>
+            <li>Надёжные программы страхования для физических и юридических лиц.</li>
+            <li>Гибкие условия страхования, адаптированные под ваши потребности.</li>
+            <li>Оперативное решение вопросов и качественный сервис на каждом этапе сотрудничества.</li>
+        </ul>
+        <p>
+            ваше доверие — наш главный капитал. давайте строить будущее вместе!
+        </p>
+    </div>
 
     <div class="mb-4">
-        <h2>Справочник страховых услуг</h2>
-        <p>Информация о доступных страховых услугах и их особенностях.</p>
-        <a asp-controller="Services" asp-action="Index" class="btn-primary">Перейти к справочнику</a>
+        <a asp-controller="Services" asp-action="Index" class="btn-primary">Справочник услуг</a>
         @if ((bool)(ViewData["IsAdminOrAgent"] ?? false))
         {
             <a asp-controller="Contracts" asp-action="Index" class="btn btn-primary">Управление договорами</a>
-        }
-    </div>
-
-    <div>
-        @if (User.Identity.IsAuthenticated)
-        {
-            <form method="post" asp-controller="Account" asp-action="Logout">
-                <button type="submit">Выйти</button>
-            </form>
-        }
-        else
-        {
-            <a asp-controller="Account" asp-action="Login" class="btn-primary">Войти</a>
-            <a asp-controller="Account" asp-action="Register" class="btn-primary">Регистрация</a>
+            <a asp-controller="Clients" asp-action="Index" class="btn btn-primary">Справочник клиентов</a>
         }
     </div>
 </div>

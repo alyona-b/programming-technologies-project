@@ -1,0 +1,129 @@
+﻿@model Insurance.Models.Contract
+
+<h2>Редактирование контракта</h2>
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="text-danger">Пожалуйста, исправьте ошибки в форме</div>
+    }
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <input type="hidden" name="Id" value="@Model.Id" />
+
+    <div class="form-group">
+        <label for="ContractNumber">Номер договора</label>
+        <input type="text" class="form-control" id="ContractNumber" name="ContractNumber" value="@Model.ContractNumber" required />
+        <span asp-validation-for="ContractNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="ServiceId">Услуга</label>
+        <select class="form-control" id="ServiceId" name="ServiceId" required>
+            @if (ViewData["Services"] is List<SelectListItem> services && services.Any())
+            {
+                @foreach (var service in services)
+                {
+                    <option value="@service.Value" selected="@(service.Value == Model.ServiceId.ToString() ? "selected" : null)">
+                        @service.Text
+                    </option>
+                }
+            }
+            else
+            {
+                <option value="">Нет доступных услуг</option>
+            }
+        </select>
+        <span asp-validation-for="ServiceId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Payout">Сумма страховой выплаты</label>
+        <input type="number" class="form-control" id="Payout" name="Payout" value="@Model.Payout" required />
+        <span asp-validation-for="Payout" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Status">Статус</label>
+        <select class="form-control" id="Status" name="Status" required>
+            @if (ViewData["Statuses"] is List<SelectListItem> statuses)
+            {
+                @foreach (var status in statuses)
+                {
+                    <option value="@status.Value" selected="@(status.Value == Model.Status ? "selected" : null)">
+                        @status.Text
+                    </option>
+                }
+            }
+            else
+            {
+                <option value="">Нет доступных статусов</option>
+            }
+        </select>
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="ClientId">Клиент</label>
+        <select class="form-control" id="ClientId" name="ClientId" required>
+            @if (ViewData["Clients"] is List<SelectListItem> clients && clients.Any())
+            {
+                @foreach (var client in clients)
+                {
+                    <option value="@client.Value" selected="@(client.Value == Model.ClientId.ToString() ? "selected" : null)">
+                        @client.Text
+                    </option>
+                }
+            }
+            else
+            {
+                <option value="">Нет доступных клиентов</option>
+            }
+        </select>
+        <span asp-validation-for="ClientId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="AgentId">Агент</label>
+        <select class="form-control" id="AgentId" name="AgentId" required>
+            @if (ViewData["Agents"] is List<SelectListItem> agents && agents.Any())
+            {
+                @foreach (var agent in agents)
+                {
+                    <option value="@agent.Value" selected="@(agent.Value == Model.AgentId.ToString() ? "selected" : null)">
+                        @agent.Text
+                    </option>
+                }
+            }
+            else
+            {
+                <option value="">Нет доступных агентов</option>
+            }
+        </select>
+        <span asp-validation-for="AgentId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="StartDate">Дата заключения</label>
+        <input type="date" class="form-control" id="StartDate" name="StartDate" value="@Model.StartDate.ToString("yyyy-MM-dd")" required />
+        <span asp-validation-for="StartDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="EndDate">Дата окончания</label>
+        <input type="date" class="form-control" id="EndDate" name="EndDate" value="@Model.EndDate.ToString("yyyy-MM-dd")" required />
+        <span asp-validation-for="EndDate" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label for="Description">Описание</label>
+        <textarea class="form-control" id="Description" name="Description">@Model.Description</textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+    <a href="@Url.Action("Index", "Contracts")" class="btn btn-secondary">Отмена</a>
+</form>

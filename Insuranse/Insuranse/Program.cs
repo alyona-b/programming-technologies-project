@@ -17,17 +17,19 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
+// Добавление контроллеров с представлениями
 builder.Services.AddControllersWithViews();
 
+// Создание конфигурации приложения
 var app = builder.Build();
 
-// Создание администратора по умолчанию
+// Создание ролей и пользователей при старте приложения
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
     var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
-    var context = services.GetRequiredService<ApplicationDbContext>(); // Получаем контекст базы данных
+    var context = services.GetRequiredService<ApplicationDbContext>();
 
     // Создание ролей
     var roles = new[] { "Администратор", "Агент", "Клиент" };
@@ -49,24 +51,16 @@ using (var scope = app.Services.CreateScope())
             Name = "Администратор",
             TaxId = "1234567890",
             PhoneNumber = "1234567890",
-            UserType = "Юридическое лицо",
-            Role = "Администратор"
+            UserType = "Юридическое лицо"
         };
 
         var createResult = await userManager.CreateAsync(adminUser, "Admin123!");
         if (createResult.Succeeded)
         {
-            // Присваиваем роль "Администратор"
             await userManager.AddToRoleAsync(adminUser, "Администратор");
-
-            // Если нужно заполнить поле Role вручную
-            adminUser.Role = "Администратор";
-            context.Users.Update(adminUser); // Обновляем в контексте базы данных
-            await context.SaveChangesAsync();
         }
         else
         {
-            // Обработка ошибок при создании пользователя
             foreach (var error in createResult.Errors)
             {
                 Console.WriteLine($"Error: {error.Description}");
@@ -83,11 +77,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
 
-app.UseAuthentication();
-app.UseAuthorization();
+app.UseAuthentication(); // Для аутентификации
+app.UseAuthorization();  // Для авторизации
 
 app.MapControllerRoute(
     name: "default",

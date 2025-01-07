@@ -2,23 +2,46 @@
 
 <h2>Детали договора</h2>
 
-<div>
-    <dl class="row">
-        <dt class="col-sm-2">Номер договора</dt>
-        <dd class="col-sm-10">@Model.ContractNumber</dd>
-
-        <dt class="col-sm-2">Сумма выплаты</dt>
-        <dd class="col-sm-10">@Model.Payout.ToString("F2")</dd>
-
-        <dt class="col-sm-2">Статус</dt>
-        <dd class="col-sm-10">@Model.Status</dd>
-
-        <dt class="col-sm-2">Клиент</dt>
-        <dd class="col-sm-10">@Model.Client?.Name</dd> <!-- Добавляем клиента -->
-
-        <dt class="col-sm-2">Описание</dt>
-        <dd class="col-sm-10">@Model.Description</dd>
-    </dl>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Общая информация</h5>
+        <p><strong>Номер договора:</strong> @Model.ContractNumber</p>
+        <p><strong>Страховая выплата:</strong> @Model.Payout.ToString("F2")</p>
+        <p><strong>Статус:</strong> @Model.Status</p>
+        <p><strong>Дата заключения:</strong> @Model.StartDate.ToString("dd.MM.yyyy")</p>
+        <p><strong>Дата окончания:</strong> @Model.EndDate.ToString("dd.MM.yyyy")</p>
+    </div>
 </div>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <h5 class="card-title">Информация о клиенте</h5>
+        <p><strong>ФИО:</strong> @Model.Client?.Name</p>
+        <p><strong>ИНН:</strong> @Model.Client?.TaxId</p>
+        <p><strong>Телефон:</strong> @Model.Client?.PhoneNumber</p>
+        <p><strong>Электронная почта:</strong> @Model.Client?.Email</p>
+        <p><strong>Тип клиента:</strong> @Model.Client?.UserType</p>
+    </div>
+</div>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <h5 class="card-title">Информация об агенте</h5>
+        <p><strong>ФИО:</strong> @Model.Agent?.Name</p>
+        <p><strong>Телефон:</strong> @Model.Agent?.PhoneNumber</p>
+        <p><strong>Электронная почта:</strong> @Model.Agent?.Email</p>
+    </div>
+</div>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <h5 class="card-title">Информация об услуге</h5>
+        <p><strong>Название:</strong> @Model.Service?.Name</p>
+        <p><strong>Тип:</strong> @Model.Service?.Type</p>
+        <p><strong>Стоимость:</strong> @Model.Service?.Price.ToString("F2")</p>
+        <p><strong>Описание:</strong> @Model.Service?.Description</p>
+    </div>
+</div>
+
 <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Редактировать</a>
-<a asp-action="Index" class="btn btn-secondary">Назад</a>
+<a href="@Url.Action("Index", "Contracts")" class="btn btn-secondary mt-3">Назад</a>

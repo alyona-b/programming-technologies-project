@@ -22,7 +22,8 @@
     </div>
     <div class="form-group">
         <label asp-for="Description"></label>
-        <textarea asp-for="Description" class="form-control" maxlength="500" rows="5"></textarea>
+        <textarea asp-for="Description" id="Description" class="form-control" maxlength="50000" rows="5"></textarea>
+        <span id="charCount" class="text-muted"></span>
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Создать</button>
@@ -47,6 +48,21 @@
             option.value = type;
             option.textContent = type;
             typeSelect.appendChild(option);
+        });
+
+        // Функция обновления счётчика символов
+        function updateCharCount() {
+            const textarea = document.getElementById("Description");
+            const charCount = document.getElementById("charCount");
+            const remaining = 50000 - textarea.value.length;
+            charCount.textContent = `Осталось символов: ${remaining}`;
+        }
+
+        // Привязка события ввода текста
+        document.addEventListener("DOMContentLoaded", () => {
+            const textarea = document.getElementById("Description");
+            updateCharCount(); // Обновить счётчик при загрузке страницы
+            textarea.addEventListener("input", updateCharCount); // Обновление при вводе текста
         });
     </script>
 }
