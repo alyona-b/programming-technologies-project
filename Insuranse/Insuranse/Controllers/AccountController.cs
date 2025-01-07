@@ -1,8 +1,12 @@
 ﻿using Insurance.Data;
-using Insurance.Models;
+using Insurance.Models; // Добавьте этот using для доступа к DashboardViewModel
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace Insurance.Controllers
 {
@@ -11,6 +15,7 @@ namespace Insurance.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly ApplicationDbContext _context;
+
         public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, ApplicationDbContext context)
         {
             _userManager = userManager;
@@ -93,6 +98,29 @@ namespace Insurance.Controllers
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
+        }
+
+        public async Task<IActionResult> Dashboard()
+        {
+            var userEmail = User.Identity.Name;
+
+            var contracts = await _context.Contracts
+                .Include(c => c.Client)
+                .Include(c => c.Agent)
+                .Include(c => c.Service)
+                .Where(c => c.Client.Email == userEmail || c.Agent.Email == userEmail)
+                .ToListAsync();
+
+            // Отфильтровать проблемные контракты
+            var problematicContracts = contracts.Where(c => c.Status != "Оплачено" || (c.EndDate - DateTime.Now).Days < 30).ToList();
+
+            var model = new DashboardViewModel
+            {
+                Contracts = contracts,
+                ProblematicContracts = problematicContracts
+            };
+
+            return View(model);
         }
     }
 }

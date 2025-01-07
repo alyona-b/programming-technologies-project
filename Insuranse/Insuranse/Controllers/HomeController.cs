@@ -1,7 +1,9 @@
 using System.Diagnostics;
 using Insurance.Models;
+using Insurance.Data; // Для работы с ApplicationDbContext
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Insurance.Controllers
 {
@@ -9,11 +11,13 @@ namespace Insurance.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ApplicationDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger, UserManager<ApplicationUser> userManager)
+        public HomeController(ILogger<HomeController> logger, UserManager<ApplicationUser> userManager, ApplicationDbContext context)
         {
             _logger = logger;
             _userManager = userManager;
+            _context = context;
         }
 
         public async Task<IActionResult> Index()
@@ -33,7 +37,9 @@ namespace Insurance.Controllers
                 ViewData["IsAdminOrAgent"] = false;
             }
 
-            return View();
+            // Получение списка услуг
+            var services = await _context.Services.ToListAsync();
+            return View(services); // Передаём услуги в представление
         }
 
         public IActionResult Privacy()

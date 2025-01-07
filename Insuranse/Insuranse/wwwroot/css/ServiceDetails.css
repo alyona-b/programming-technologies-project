@@ -1,0 +1,80 @@
+﻿/* Заголовок страницы */
+.service-details-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2a3f54;
+}
+
+/* Стили для карточки услуги */
+.service-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: auto; /* Центрирование по горизонтали */
+    margin-right: auto;
+}
+
+.service-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.service-type, .service-price {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.service-description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Кнопки управления и назад */
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+
+.btn-manage {
+    background-color: #007bff;
+}
+
+    .btn-manage:hover {
+        background-color: #0056b3;
+    }
+
+.btn-back {
+    background-color: #28a745;
+}
+
+    .btn-back:hover {
+        background-color: #218838;
+    }

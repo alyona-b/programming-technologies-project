@@ -5,12 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Insurance</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        .navbar-brand {
+            font-family: 'Arial', sans-serif; /* Устанавливаем конкретный шрифт */
+            font-size: 24px; /* Размер шрифта */
+            font-weight: bold; /* Жирный шрифт */
+        }
+
+        .back-btn {
+            background: transparent; /* Прозрачный фон */
+            border: none; /* Убираем рамку */
+            padding: 0; /* Убираем внутренние отступы */
+            font-size: 24px; /* Размер иконки */
+            color: #000; /* Цвет стрелки */
+            cursor: pointer; /* Указатель при наведении */
+            transition: all 0.3s ease; /* Плавный переход для эффектов */
+            margin-right: 15px; /* Отступ справа от кнопки */
+        }
+
+        .back-btn:hover {
+            background-color: #f8f9fa; /* Легкий фон при наведении */
+            border-radius: 50%; /* Сделать круглый */
+            color: #007bff; /* Цвет стрелки при наведении */
+        }
+    </style>
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
+                <!-- Кнопка "Назад" с иконкой стрелки -->
+                <button class="back-btn" onclick="window.history.back();">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+
                 <a class="navbar-brand" asp-controller="Home" asp-action="Index">флекс страхование</a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -18,10 +50,26 @@
                     <ul class="navbar-nav ms-auto">
                         @if (User.Identity.IsAuthenticated)
                         {
+                            @* @if (User.IsInRole("Администратор"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Contracts" asp-action="Index">договора</a>
+                                    <a class="nav-link" asp-controller="Services" asp-action="Manage">услуги</a>
+                                    <a class="nav-link" asp-controller="Clients" asp-action="Index">клиенты</a>
+                                </li>
+                            } *@
+
                             @if (User.IsInRole("Администратор"))
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Admin" asp-action="ManageUsers">управление пользователями</a>
+                                    <a class="nav-link" asp-controller="Admin" asp-action="ManageUsers">пользователи</a>
+                                </li>
+                            }
+
+                            @if (User.IsInRole("Клиент") || User.IsInRole("Агент"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Account" asp-action="Dashboard">личный кабинет</a>
                                 </li>
                             }
 
@@ -34,18 +82,17 @@
                             <li class="nav-item">
                                 <a class="nav-link" asp-controller="Account" asp-action="Login">войти</a>
                             </li>
-                            @* <li class="nav-item">
-                                <a class="nav-link" asp-controller="Account" asp-action="Register">Регистрация</a>
-                            </li> *@
                         }
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <div class="container">
         @RenderBody()
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     @RenderSection("Scripts", required: false)
 </body>

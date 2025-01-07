@@ -1,32 +1,33 @@
 ﻿@model Insurance.Models.Service
 
-<h2>Детали услуги</h2>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуга - Флекс страхование</title>
+    <link rel="stylesheet" href="~/css/ServiceDetails.css" />
+</head>
 
-@{
-    var isAdminOrAgent = (bool)(ViewData["IsAdminOrAgent"] ?? false);
-}
+<body>
 
-<div>
-    <dl class="row">
-        <dt class="col-sm-2">Название</dt>
-        <dd class="col-sm-10">@Model.Name</dd>
-
-        <dt class="col-sm-2">Тип</dt>
-        <dd class="col-sm-10">@Model.Type</dd>
-
-        <dt class="col-sm-2">Стоимость</dt>
-        <dd class="col-sm-10">@Model.Price.ToString("F2")</dd>
-
-        <dt class="col-sm-2">Описание</dt>
-        <dd class="col-sm-10">@Model.Description</dd>
-    </dl>
-</div>
-
-<div>
-    @if (isAdminOrAgent)
-    {
-        <a asp-action="Manage" class="btn btn-secondary">Управление</a>
+    @{
+        var isAdminOrAgent = (bool)(ViewData["IsAdminOrAgent"] ?? false);
     }
 
-    <a asp-action="Index" class="btn btn-secondary">Назад</a>
-</div>
+    <div class="service-card">
+        <h3 class="service-name">@Model.Name</h3>
+        <p class="service-type">Тип: @Model.Type</p>
+        <p class="service-price">Стоимость: @Model.Price.ToString("F2") ₽</p>
+        <p class="service-description">@Model.Description</p>
+    </div>
+
+    <div>
+       @*  @if (isAdminOrAgent)
+        {
+            <a asp-action="Manage" class="btn btn-secondary">Управление</a>
+        } *@
+
+        @* <a asp-controller="Home" asp-action="Index" class="btn btn-secondary btn-back">Назад</a> *@
+    </div>
+</body>

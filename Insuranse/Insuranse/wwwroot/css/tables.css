@@ -1,0 +1,87 @@
+﻿/* Общие стили для кнопок */
+.btn {
+    display: inline-block;
+    width: 100%; /* Устанавливаем ширину кнопок на 100%, чтобы они занимали всю доступную ширину */
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Отступ между кнопками */
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box; /* Чтобы кнопки не выходили за пределы */
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.btn-warning {
+    background-color: #ffc107;
+}
+
+    .btn-warning:hover {
+        background-color: #e0a800;
+    }
+
+.btn-info {
+    background-color: #17a2b8;
+}
+
+    .btn-info:hover {
+        background-color: #117a8b;
+    }
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+    .btn-danger:hover {
+        background-color: #bd2130;
+    }
+
+/* Стили для кнопок в таблице (расположение вертикально) */
+.table .btn {
+    display: block; /* Устанавливаем кнопки в столбик */
+    width: 100%; /* Устанавливаем ширину кнопки на всю ширину ячейки */
+    margin-bottom: 5px; /* Отступы между кнопками */
+    text-align: center;
+    box-sizing: border-box; /* Чтобы кнопки не выходили за пределы */
+}
+
+/* Центрирование кнопок в ячейках таблицы */
+.table td {
+    text-align: center; /* Выравниваем текст и кнопки по центру */
+    vertical-align: middle; /* Выравниваем по вертикали */
+}
+
+/* Стили для таблицы */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .table th, .table td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    .table th {
+        background-color: #f8f9fa;
+        font-weight: bold;
+    }
+
+    .table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+/* Стили для текста в таблице */
+.text-center {
+    text-align: center;
+}

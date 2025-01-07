@@ -1,0 +1,112 @@
+﻿/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: #fff;*/
+   /* #f9f9f9;*/
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер для контента */
+.content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Чтобы контейнер не выходил за пределы */
+}
+
+    /* Заголовок страницы */
+    .content h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #2a3f54;
+    }
+
+/* Стили для таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    /* Стили для заголовков таблицы */
+    table th {
+        background-color: #f8f9fa;
+        padding: 12px;
+        font-weight: bold;
+        border-bottom: 2px solid #ddd;
+        text-align: center;
+    }
+
+    /* Стили для строк таблицы */
+    table td {
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+
+/* Чередование цветов строк таблицы */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Стили для кнопок в таблице */
+.btn {
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
+    width: 100%; /* Делает кнопки одинаковыми по ширине */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+    .btn-danger:hover {
+        background-color: #bd2130;
+    }
+
+/* Стили для формы изменения роли */
+form {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%; /* Делает форму и кнопки одинаковыми по ширине */
+}
+
+select.form-control {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%; /* Растягивает выпадающий список на всю ширину */
+}
+
+/* Стилевое оформление контейнера для таблицы */
+.content table {
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto;
+}

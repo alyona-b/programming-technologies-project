@@ -1,0 +1,116 @@
+﻿@model Insurance.Models.DashboardViewModel
+
+<head>
+    <link rel="stylesheet" href="~/css/tables.css" />
+</head>
+
+@{
+    ViewData["Title"] = "Личный кабинет";
+}
+
+@if (User.IsInRole("Агент"))
+{
+    <a asp-controller="Contracts" asp-action="Index" class="btn btn-primary">Управление договорами</a>
+    <a asp-controller="Clients" asp-action="Index" class="btn btn-primary">Справочник клиентов</a>
+    <a asp-controller="Services" asp-action="Manage" class="btn btn-primary">Справочник услуг</a>
+}
+
+<h2>Проблемные договоры</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Номер договора</th>
+            <th>Тип услуги</th>
+            <th>Страховая выплата</th>
+            <th>Статус</th>
+            <th>Клиент</th>
+            <th>Агент</th>
+            <th>Дата заключения</th>
+            <th>Дата окончания</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.ProblematicContracts.Any())
+        {
+            @foreach (var contract in Model.ProblematicContracts)
+            {
+                <tr>
+                    <td>@contract.ContractNumber</td>
+                    <td>@contract.Service?.Name</td>
+                    <td>@contract.Payout.ToString("F2")</td>
+                    <td>@contract.Status</td>
+                    <td>@contract.Client?.Name</td>
+                    <td>@contract.Agent?.Name</td>
+                    <td>@contract.StartDate.ToString("dd.MM.yyyy")</td>
+                    <td>@contract.EndDate.ToString("dd.MM.yyyy")</td>
+                    <td>
+                        <a asp-controller="Contracts" asp-action="Details" asp-route-id="@contract.Id" class="btn btn-info">Детали</a>
+                        @if (User.IsInRole("Агент"))
+                        {
+                            <a asp-controller="Contracts" asp-action="Edit" asp-route-id="@contract.Id" class="btn btn-warning">Редактировать</a>
+                            <a asp-controller="Contracts" asp-action="Delete" asp-route-id="@contract.Id" class="btn btn-danger">Удалить</a>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="9" class="text-center">Нет проблемных договоров.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Мои договоры</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Номер договора</th>
+            <th>Тип услуги</th>
+            <th>Страховая выплата</th>
+            <th>Статус</th>
+            <th>Клиент</th>
+            <th>Агент</th>
+            <th>Дата заключения</th>
+            <th>Дата окончания</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Contracts.Any())
+        {
+            @foreach (var contract in Model.Contracts)
+            {
+                <tr>
+                    <td>@contract.ContractNumber</td>
+                    <td>@contract.Service?.Name</td>
+                    <td>@contract.Payout.ToString("F2")</td>
+                    <td>@contract.Status</td>
+                    <td>@contract.Client?.Name</td>
+                    <td>@contract.Agent?.Name</td>
+                    <td>@contract.StartDate.ToString("dd.MM.yyyy")</td>
+                    <td>@contract.EndDate.ToString("dd.MM.yyyy")</td>
+                    <td>
+                        <a asp-controller="Contracts" asp-action="Details" asp-route-id="@contract.Id" class="btn btn-info">Детали</a>
+                        @if (User.IsInRole("Агент"))
+                        {
+                            <a asp-controller="Contracts" asp-action="Edit" asp-route-id="@contract.Id" class="btn btn-warning">Редактировать</a>
+                            <a asp-controller="Contracts" asp-action="Delete" asp-route-id="@contract.Id" class="btn btn-danger">Удалить</a>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="9" class="text-center">У вас пока нет договоров.</td>
+            </tr>
+        }
+    </tbody>
+</table>

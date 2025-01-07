@@ -1,0 +1,167 @@
+﻿/* Этот стиль ограничивает изменения только для страниц регистрации и входа */
+.auth-page {
+    font-family: Arial, sans-serif;
+ /*   background-color: #f9f9f9;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+    .auth-page .content {
+        text-align: center;
+        /* background: #ffffff;*/
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        width: 70%;
+        max-width: 7000px;
+        margin-top: 0px;
+    }
+
+    .auth-page .btn-primary {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+        .auth-page .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .auth-page h2 {
+        margin-bottom: 20px;
+    }
+
+    .auth-page table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    .auth-page table, th, td {
+        border: 1px solid #ddd;
+    }
+
+    .auth-page th, td {
+        padding: 12px;
+        text-align: left;
+    }
+
+    .auth-page th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    .auth-page tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .auth-page select {
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .auth-page .btn-primary, .auth-page .btn-warning, .auth-page .btn-info, .auth-page .btn-danger {
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        margin: 2px;
+    }
+
+    .auth-page .btn-warning {
+        background-color: #ffc107;
+    }
+
+        .auth-page .btn-warning:hover {
+            background-color: #e0a800;
+        }
+
+    .auth-page .btn-info {
+        background-color: #17a2b8;
+    }
+
+        .auth-page .btn-info:hover {
+            background-color: #117a8b;
+        }
+
+    .auth-page .btn-danger {
+        background-color: #dc3545;
+    }
+
+        .auth-page .btn-danger:hover {
+            background-color: #bd2130;
+        }
+
+    .auth-page .container {
+        text-align: center;
+        max-width: 500px;
+        background: #ffffff;
+        border-radius: 10px;
+    }
+
+    .auth-page form {
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+        .auth-page form div {
+            margin-bottom: 10px;
+        }
+
+    .auth-page label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .auth-page input[type="text"],
+    .auth-page input[type="email"],
+    .auth-page input[type="password"],
+    .auth-page input[type="tel"],
+    .auth-page select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .auth-page button {
+        width: 100%;
+        background: #007bff;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+        .auth-page button:hover {
+            background: #0056b3;
+        }
+
+    .auth-page .links {
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+        .auth-page .links a {
+            margin: 0 10px;
+            color: #007bff;
+            text-decoration: none;
+        }

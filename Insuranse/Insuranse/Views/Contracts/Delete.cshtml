@@ -1,30 +1,12 @@
 ﻿@model Insurance.Models.Contract
 
+<head>
+    <link rel="stylesheet" href="~/css/tables.css" />
+</head>
+
 <h2>Подтверждение удаления</h2>
 
 <p>Вы действительно хотите удалить контракт?</p>
-
-<div>
-    <dl class="row">
-        <dt class="col-sm-3">Клиент</dt>
-        <dd class="col-sm-9">@Model.Client?.Name</dd>
-
-        <dt class="col-sm-3">Агент</dt>
-        <dd class="col-sm-9">@Model.Agent?.Name</dd>
-
-        <dt class="col-sm-3">Услуга</dt>
-        <dd class="col-sm-9">@Model.Service?.Name</dd>
-
-        <dt class="col-sm-3">Дата начала</dt>
-        <dd class="col-sm-9">@Model.StartDate.ToString("dd.MM.yyyy")</dd>
-
-        <dt class="col-sm-3">Дата окончания</dt>
-        <dd class="col-sm-9">@Model.EndDate.ToString("dd.MM.yyyy")</dd>
-
-        <dt class="col-sm-3">Статус</dt>
-        <dd class="col-sm-9">@Model.Status</dd>
-    </dl>
-</div>
 
 <div>
     <form asp-action="Delete" asp-route-id="@Model.Id" method="post">

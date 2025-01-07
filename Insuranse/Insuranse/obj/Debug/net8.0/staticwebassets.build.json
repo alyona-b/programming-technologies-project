@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DyqoO8S9Vi2MIGzkU2EguocKYwA9JK+Bo95f89nLuRk=",
+  "Hash": "2ZcxqdRI+TWHYqLkiIVTP4+cM9jM5+47fmXsdZI28iA=",
   "Source": "Insuranse",
   "BasePath": "_content/Insuranse",
   "Mode": "Default",
@@ -1319,6 +1319,27 @@
       "OriginalItemSpec": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Insuranse.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\ServiceDetails.css",
+      "SourceId": "Insuranse",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\",
+      "BasePath": "_content/Insuranse",
+      "RelativePath": "css/ServiceDetails#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v3r6qbsz9f",
+      "Integrity": "RUuu9Jbi4grX/dpOVSrpGoTW+KsHAdbJvXJ/YOi/280=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ServiceDetails.css"
+    },
+    {
       "Identity": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\site.css",
       "SourceId": "Insuranse",
       "SourceType": "Discovered",
@@ -1338,6 +1359,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\StyleMain.css",
+      "SourceId": "Insuranse",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\",
+      "BasePath": "_content/Insuranse",
+      "RelativePath": "css/StyleMain#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e01i4lwm9e",
+      "Integrity": "YrLA8RI3u5ytU5daMEFQnI+xi0Im2fEIT9ovo3L4WIk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleMain.css"
+    },
+    {
+      "Identity": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\styles.css",
+      "SourceId": "Insuranse",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\",
+      "BasePath": "_content/Insuranse",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dzksewt639",
+      "Integrity": "OfegsxMAqOx+CMIIbYYpUiOIp4HLdttNtAh+dbhuPyE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\styles2.css",
+      "SourceId": "Insuranse",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\",
+      "BasePath": "_content/Insuranse",
+      "RelativePath": "css/styles2#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qozluoeokp",
+      "Integrity": "6sUAns1HPNAeVLOc+96yvXKLpiJpId/M3l+aZoN++jo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles2.css"
+    },
+    {
+      "Identity": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\tables.css",
+      "SourceId": "Insuranse",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\",
+      "BasePath": "_content/Insuranse",
+      "RelativePath": "css/tables#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bwmgqlpx47",
+      "Integrity": "63WEned5jgRO8VghyIG84zXFY/t2BIWm8W8kVMKvQMI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tables.css"
     },
     {
       "Identity": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\favicon.ico",
@@ -2581,6 +2686,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/ServiceDetails.css",
+      "AssetFile": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\ServiceDetails.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1569"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RUuu9Jbi4grX/dpOVSrpGoTW+KsHAdbJvXJ/YOi/280=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 21:46:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RUuu9Jbi4grX/dpOVSrpGoTW+KsHAdbJvXJ/YOi/280="
+        }
+      ]
+    },
+    {
+      "Route": "css/ServiceDetails.v3r6qbsz9f.css",
+      "AssetFile": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\ServiceDetails.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1569"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RUuu9Jbi4grX/dpOVSrpGoTW+KsHAdbJvXJ/YOi/280=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 21:46:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v3r6qbsz9f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ServiceDetails.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RUuu9Jbi4grX/dpOVSrpGoTW+KsHAdbJvXJ/YOi/280="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2659,6 +2846,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "css/StyleMain.css",
+      "AssetFile": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\StyleMain.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YrLA8RI3u5ytU5daMEFQnI+xi0Im2fEIT9ovo3L4WIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 21:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YrLA8RI3u5ytU5daMEFQnI+xi0Im2fEIT9ovo3L4WIk="
+        }
+      ]
+    },
+    {
+      "Route": "css/StyleMain.e01i4lwm9e.css",
+      "AssetFile": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\StyleMain.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YrLA8RI3u5ytU5daMEFQnI+xi0Im2fEIT9ovo3L4WIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 21:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e01i4lwm9e"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StyleMain.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YrLA8RI3u5ytU5daMEFQnI+xi0Im2fEIT9ovo3L4WIk="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OfegsxMAqOx+CMIIbYYpUiOIp4HLdttNtAh+dbhuPyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 14:48:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OfegsxMAqOx+CMIIbYYpUiOIp4HLdttNtAh+dbhuPyE="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.dzksewt639.css",
+      "AssetFile": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OfegsxMAqOx+CMIIbYYpUiOIp4HLdttNtAh+dbhuPyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 14:48:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dzksewt639"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OfegsxMAqOx+CMIIbYYpUiOIp4HLdttNtAh+dbhuPyE="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles2.css",
+      "AssetFile": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\styles2.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6sUAns1HPNAeVLOc+96yvXKLpiJpId/M3l+aZoN++jo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 13:54:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6sUAns1HPNAeVLOc+96yvXKLpiJpId/M3l+aZoN++jo="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles2.qozluoeokp.css",
+      "AssetFile": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\styles2.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6sUAns1HPNAeVLOc+96yvXKLpiJpId/M3l+aZoN++jo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 13:54:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qozluoeokp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles2.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6sUAns1HPNAeVLOc+96yvXKLpiJpId/M3l+aZoN++jo="
+        }
+      ]
+    },
+    {
+      "Route": "css/tables.bwmgqlpx47.css",
+      "AssetFile": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\tables.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2384"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"63WEned5jgRO8VghyIG84zXFY/t2BIWm8W8kVMKvQMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 16:29:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bwmgqlpx47"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tables.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-63WEned5jgRO8VghyIG84zXFY/t2BIWm8W8kVMKvQMI="
+        }
+      ]
+    },
+    {
+      "Route": "css/tables.css",
+      "AssetFile": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 8\\Insuranse\\Insuranse\\wwwroot\\css\\tables.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2384"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"63WEned5jgRO8VghyIG84zXFY/t2BIWm8W8kVMKvQMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 16:29:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-63WEned5jgRO8VghyIG84zXFY/t2BIWm8W8kVMKvQMI="
         }
       ]
     },
@@ -4987,7 +5502,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 15:36:54 GMT"
+          "Value": "Mon, 06 Jan 2025 21:12:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5024,7 +5539,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 15:36:54 GMT"
+          "Value": "Mon, 06 Jan 2025 21:12:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5069,7 +5584,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 15:36:54 GMT"
+          "Value": "Mon, 06 Jan 2025 21:12:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5114,7 +5629,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 15:36:54 GMT"
+          "Value": "Mon, 06 Jan 2025 21:12:58 GMT"
         },
         {
           "Name": "Cache-Control",

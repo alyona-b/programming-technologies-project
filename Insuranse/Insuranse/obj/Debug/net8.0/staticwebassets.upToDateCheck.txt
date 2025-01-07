@@ -1,4 +1,9 @@
+wwwroot\css\ServiceDetails.css
 wwwroot\css\site.css
+wwwroot\css\StyleMain.css
+wwwroot\css\styles.css
+wwwroot\css\styles2.css
+wwwroot\css\tables.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

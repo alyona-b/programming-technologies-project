@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Insurance.Controllers
 {
-    [Authorize(Roles = "Администратор,Агент")]
+    //[Authorize(Roles = "Администратор,Агент")]
     public class ContractsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -17,6 +17,7 @@ namespace Insurance.Controllers
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
+        [Authorize(Roles = "Администратор,Агент")]
         public async Task<IActionResult> Index()
         {
             var contracts = await _context.Contracts
@@ -28,6 +29,7 @@ namespace Insurance.Controllers
             return View(contracts);
         }
 
+        [Authorize(Roles = "Администратор,Агент")]
         public IActionResult Create()
         {
             var model = new Contract
@@ -42,6 +44,8 @@ namespace Insurance.Controllers
             LoadServicesDropdown();
             return View(model);
         }
+
+        [Authorize(Roles = "Администратор,Агент")]
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -194,6 +198,7 @@ namespace Insurance.Controllers
             }
         }
 
+        [Authorize(Roles = "Администратор,Агент")]
         public async Task<IActionResult> Edit(int id)
         {
             var contract = await _context.Contracts
@@ -212,6 +217,7 @@ namespace Insurance.Controllers
             return View(contract);
         }
 
+        [Authorize(Roles = "Администратор,Агент")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Contract contract)
@@ -258,6 +264,7 @@ namespace Insurance.Controllers
             return View(contract);
         }
 
+        [Authorize(Roles = "Администратор,Агент")]
         public async Task<IActionResult> Delete(int id)
         {
             var contract = await _context.Contracts
@@ -272,7 +279,7 @@ namespace Insurance.Controllers
             return View(contract);
         }
 
-
+        [Authorize(Roles = "Администратор,Агент")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -286,6 +293,8 @@ namespace Insurance.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        [Authorize(Roles = "Клиент, Агент, Администратор")]
         public async Task<IActionResult> Details(int id)
         {
             var contract = await _context.Contracts
@@ -299,9 +308,17 @@ namespace Insurance.Controllers
                 return NotFound();
             }
 
+            // Проверяем, что клиент имеет доступ к этому договору
+            var userEmail = User.Identity.Name;
+            if (contract.Client.Email != userEmail && contract.Agent.Email != userEmail)
+            {
+                return Forbid();  // Запрещаем доступ, если клиент или агент не совпадают с пользователем
+            }
+
             return View(contract);
         }
 
+        [Authorize(Roles = "Администратор,Агент")]
         public async Task<IActionResult> Search([FromQuery] Contract searchModel)
         {
             var query = _context.Contracts
@@ -360,6 +377,7 @@ namespace Insurance.Controllers
             return View("Search", contracts);
         }
 
+        [Authorize(Roles = "Администратор,Агент")]
         private void LoadStatusDropdown()
         {
             ViewData["Statuses"] = new List<SelectListItem>
@@ -369,6 +387,7 @@ namespace Insurance.Controllers
             };
         }
 
+        [Authorize(Roles = "Администратор,Агент")]
         private void LoadClientsDropdown()
         {
             var clients = _context.Clients
@@ -395,6 +414,7 @@ namespace Insurance.Controllers
 
         }
 
+        [Authorize(Roles = "Администратор,Агент")]
         private void LoadAgentsDropdown()
         {
             var agents = _context.Agents
@@ -420,6 +440,7 @@ namespace Insurance.Controllers
             }
         }
 
+        [Authorize(Roles = "Администратор,Агент")]
         private void LoadServicesDropdown()
         {
             var services = _context.Services

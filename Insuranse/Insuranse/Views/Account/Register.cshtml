@@ -1,38 +1,44 @@
 ﻿@model Insurance.Models.RegisterViewModel
 
-<div class="container">
-    <h1>Страховое агентство</h1>
-    <form asp-action="Register" method="post">
-        <div>
-            <label asp-for="Name"></label>
-            <input asp-for="Name" />
+<head>
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+
+<div class="auth-page">
+    <div class="content">
+        <h1>регистрация</h1>
+        <form asp-action="Register" method="post">
+            <div>
+                <label asp-for="Name">имя</label>
+                <input asp-for="Name" />
+            </div>
+            <div>
+                <label asp-for="Email">email</label>
+                <input asp-for="Email" />
+            </div>
+            <div>
+                <label asp-for="Password">пароль</label>
+                <input asp-for="Password" type="password" />
+            </div>
+            <div>
+                <label asp-for="TaxId">ИНН</label>
+                <input asp-for="TaxId" />
+            </div>
+            <div>
+                <label asp-for="Phone">телефон</label>
+                <input asp-for="Phone" type="tel" />
+            </div>
+            <div>
+                <label asp-for="UserType">тип пользователя</label>
+                <select asp-for="UserType">
+                    <option>физическое лицо</option>
+                    <option>юридическое лицо</option>
+                </select>
+            </div>
+            <button type="submit">зарегистрироваться</button>
+        </form>
+        <div class="links">
+            <a asp-controller="Account" asp-action="Login">вход</a>
         </div>
-        <div>
-            <label asp-for="Email"></label>
-            <input asp-for="Email" />
-        </div>
-        <div>
-            <label asp-for="Password"></label>
-            <input asp-for="Password" type="password" />
-        </div>
-        <div>
-            <label asp-for="TaxId"></label>
-            <input asp-for="TaxId" />
-        </div>
-        <div>
-            <label asp-for="Phone"></label>
-            <input asp-for="Phone" type="tel" />
-        </div>
-        <div>
-            <label asp-for="UserType"></label>
-            <select asp-for="UserType">
-                <option>Физическое лицо</option>
-                <option>Юридическое лицо</option>
-            </select>
-        </div>
-        <button type="submit">Зарегистрироваться</button>
-    </form>
-    <div class="links">
-        <a asp-controller="Account" asp-action="Login">Вход</a>
     </div>
 </div>

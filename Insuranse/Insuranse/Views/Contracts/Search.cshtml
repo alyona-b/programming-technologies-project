@@ -1,5 +1,9 @@
 ﻿@model IEnumerable<Insurance.Models.Contract>
 
+<head>
+    <link rel="stylesheet" href="~/css/tables.css" />
+</head>
+
 @{
     ViewData["Title"] = "Поиск договоров";
     var searchModel = ViewBag.SearchModel as Insurance.Models.Contract ?? new Insurance.Models.Contract();

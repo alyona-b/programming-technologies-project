@@ -1,9 +1,14 @@
 ﻿@model IEnumerable<Insurance.Models.UserViewModel>
 
-<div class="content">
+
+<head>
+    <link rel="stylesheet" href="~/css/tables.css" />
+</head>
+
+
     <h2>Управление пользователями</h2>
 
-    <table>
+<table class="table table-bordered">
         <thead>
             <tr>
                 <th>Имя</th>
@@ -44,4 +49,3 @@
             }
         </tbody>
     </table>
-</div>

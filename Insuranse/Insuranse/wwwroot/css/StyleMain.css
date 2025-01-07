@@ -1,0 +1,127 @@
+﻿/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px; /* Уменьшаем отступ слева */
+    padding-right: 10px; /* Уменьшаем отступ справа */
+    padding-top: 20px; /* Оставляем отступ сверху */
+    padding-bottom: 20px; /* Оставляем отступ снизу */
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+/* Заголовки и текст */
+.main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2a3f54;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #495057;
+}
+
+.intro-text,
+.about-text,
+.closing-text {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+    .about-list li {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+        color: #444;
+    }
+
+/* Секция услуг */
+.services-section {
+    margin-top: 40px;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Автоматический набор колонок */
+    gap: 15px;
+    justify-items: center;
+}
+
+/* Стили для карточек */
+.service-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.service-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px; /* Устанавливаем фиксированную ширину для всех карточек */
+    height: 200px; /* Устанавливаем фиксированную высоту для всех карточек */
+    box-sizing: border-box; /* Включаем паддинги и бордеры в размер */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+
+.service-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2a3f54;
+}
+
+.service-type {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.service-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #28a745;
+    margin-top: auto;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .service-card {
+        width: 100%; /* Карточки займут всю доступную ширину на мобильных устройствах */
+        height: auto; /* Высота будет автоматически подстраиваться под содержимое */
+    }
+}

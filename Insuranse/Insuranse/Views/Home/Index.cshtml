@@ -1,33 +1,30 @@
-﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<Insurance.Models.ApplicationUser> SignInManager
-@inject UserManager<Insurance.Models.ApplicationUser> UserManager
+﻿@model IEnumerable<Insurance.Models.Service>
 
-<div class="content">
-    <div class="mb-4">
-        <h1>добро пожаловать во флекс страхование!</h1>
-        <p>
-            флекс страхование уже много лет успешно предоставляет широкий спектр страховых услуг, помогая клиентам защищать самое ценное: здоровье, имущество, бизнес и финансовую стабильность.
-        </p>
-        <h2>о компании</h2>
-        <p>
-            мы гордимся высоким уровнем профессионализма, прозрачностью условий и индивидуальным подходом к каждому клиенту. наша миссия — обеспечить вам спокойствие и уверенность в завтрашнем дне.
-        </p>
-        <ul>
-            <li>Надёжные программы страхования для физических и юридических лиц.</li>
-            <li>Гибкие условия страхования, адаптированные под ваши потребности.</li>
-            <li>Оперативное решение вопросов и качественный сервис на каждом этапе сотрудничества.</li>
-        </ul>
-        <p>
-            ваше доверие — наш главный капитал. давайте строить будущее вместе!
-        </p>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - Флекс страхование</title>
+    <link rel="stylesheet" href="~/css/StyleMain.css" />
+</head>
+<body>
+    <div class="content text-center">
+        <div class="services-section">
+            <h2 class="section-title">выберите своё страхование уже сейчас</h2>
+            <div class="services-container">
+                @foreach (var service in Model)
+                {
+                    <a asp-controller="Services" asp-action="Details" asp-route-id="@service.Id" class="service-card-link">
+                        <div class="service-card">
+                            <h3 class="service-name">@service.Name</h3>
+                            <p class="service-type">@service.Type</p>
+                            <p class="service-price">@string.Format("{0:F2} ₽", service.Price)</p>
+                        </div>
+                    </a>
+                }
+            </div>
+        </div>
     </div>
-
-    <div class="mb-4">
-        <a asp-controller="Services" asp-action="Index" class="btn-primary">Справочник услуг</a>
-        @if ((bool)(ViewData["IsAdminOrAgent"] ?? false))
-        {
-            <a asp-controller="Contracts" asp-action="Index" class="btn btn-primary">Управление договорами</a>
-            <a asp-controller="Clients" asp-action="Index" class="btn btn-primary">Справочник клиентов</a>
-        }
-    </div>
-</div>
+</body>
+</html>

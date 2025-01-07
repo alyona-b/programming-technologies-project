@@ -1,12 +1,18 @@
 ﻿@model IEnumerable<Insurance.Models.Service>
 
-<div class="content">
+<head>
+    <link rel="stylesheet" href="~/css/tables.css" />
+</head>
+
+
     <h2>Управление услугами</h2>
 
-    <a asp-action="Create" class="btn btn-primary">Создать</a>
-    <a asp-action="Index" class="btn btn-secondary">Назад</a>
+    <div class="button-container">
+        <a asp-action="Create" class="btn btn-primary mb-3">Создать</a>
+    </div>
 
-    <table>
+    <table class="table table-bordered">
+        <!-- Добавлен класс таблицы -->
         <thead>
             <tr>
                 <th>Название</th>
@@ -23,12 +29,14 @@
                     <td>@service.Type</td>
                     <td>@string.Format("{0:F2}", service.Price)</td>
                     <td>
-                        <a asp-action="Edit" asp-route-id="@service.Id" class="btn btn-warning">Редактировать</a>
-                        <a asp-action="Details" asp-route-id="@service.Id" class="btn btn-info">Детали</a>
-                        <a asp-action="Delete" asp-route-id="@service.Id" class="btn btn-danger">Удалить</a>
+                        <div class="btn-container">
+                            <a asp-action="Edit" asp-route-id="@service.Id" class="btn btn-warning">Редактировать</a>
+                            <a asp-action="Details" asp-route-id="@service.Id" class="btn btn-info">Детали</a>
+                            <a asp-action="Delete" asp-route-id="@service.Id" class="btn btn-danger">Удалить</a>
+                        </div>
                     </td>
                 </tr>
             }
         </tbody>
     </table>
-</div>
+
