@@ -10,6 +10,8 @@
             <th>Номер договора</th>
             <th>Страховая выплата</th>
             <th>Статус</th>
+            <th>Клиент</th> 
+            <th>Агент</th> 
             <th>Действия</th>
         </tr>
     </thead>
@@ -18,8 +20,10 @@
         {
             <tr>
                 <td>@contract.ContractNumber</td>
-                <td>@contract.Payout.ToString("F2")</td> <!-- InsurancePayout -->
+                <td>@contract.Payout.ToString("F2")</td>
                 <td>@contract.Status</td>
+                <td>@contract.Client?.Name</td>
+                <td>@contract.Agent?.Name</td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@contract.Id" class="btn btn-warning">Редактировать</a>
                     <a asp-action="Details" asp-route-id="@contract.Id" class="btn btn-info">Детали</a>

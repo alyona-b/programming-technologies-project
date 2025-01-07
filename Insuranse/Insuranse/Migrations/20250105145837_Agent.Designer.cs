@@ -4,6 +4,7 @@ using Insurance.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Insuranse.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250105145837_Agent")]
+    partial class Agent
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,31 +24,6 @@ namespace Insuranse.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
-
-            modelBuilder.Entity("Insurance.Models.Agent", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("varchar(256)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("varchar(256)");
-
-                    b.Property<string>("PhoneNumber")
-                        .IsRequired()
-                        .HasColumnType("varchar(256)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Agents");
-                });
 
             modelBuilder.Entity("Insurance.Models.ApplicationUser", b =>
                 {
@@ -168,9 +146,6 @@ namespace Insuranse.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("AgentId")
-                        .HasColumnType("int");
-
                     b.Property<int>("ClientId")
                         .HasColumnType("int");
 
@@ -189,8 +164,6 @@ namespace Insuranse.Migrations
                         .HasColumnType("varchar(256)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AgentId");
 
                     b.HasIndex("ClientId");
 
@@ -359,19 +332,11 @@ namespace Insuranse.Migrations
 
             modelBuilder.Entity("Insurance.Models.Contract", b =>
                 {
-                    b.HasOne("Insurance.Models.Agent", "Agent")
-                        .WithMany("Contracts")
-                        .HasForeignKey("AgentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Insurance.Models.Client", "Client")
                         .WithMany("Contracts")
                         .HasForeignKey("ClientId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Agent");
 
                     b.Navigation("Client");
                 });
@@ -425,11 +390,6 @@ namespace Insuranse.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Insurance.Models.Agent", b =>
-                {
-                    b.Navigation("Contracts");
                 });
 
             modelBuilder.Entity("Insurance.Models.Client", b =>

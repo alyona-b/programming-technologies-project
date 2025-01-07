@@ -22,14 +22,19 @@ namespace Insurance.Models
 
         [Display(Name = "Описание")]
         [DataType(DataType.MultilineText)]
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
         // Связь с клиентом
-        //[Required]
-        [Display(Name = "Клиент")]
-        public int? ClientId { get; set; }
+        [Required] // Убедитесь, что связь обязательна
+        [ForeignKey("Client")]
+        public int ClientId { get; set; }
 
-        [ForeignKey("ClientId")]
-        public virtual Client Client { get; set; }
+        public virtual Client? Client { get; set; } // Навигационное свойство
+
+        // Связь с агентом
+        [Required]
+        [ForeignKey("Agent")]
+        public int AgentId { get; set; }
+        public virtual Agent? Agent { get; set; }
     }
 }

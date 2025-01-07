@@ -12,6 +12,7 @@ namespace Insurance.Data
         public DbSet<Service> Services { get; set; }
         public DbSet<Contract> Contracts { get; set; }
         public DbSet<Client> Clients { get; set; }
+        public DbSet<Agent> Agents { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

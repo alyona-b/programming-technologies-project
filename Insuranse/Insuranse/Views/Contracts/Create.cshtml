@@ -46,13 +46,11 @@
     <div class="form-group">
         <label for="ClientId">Клиент</label>
         <select class="form-control" id="ClientId" name="ClientId" required>
-            @if (ViewData["Clients"] is List<SelectListItem> clients)
+            @if (ViewData["Clients"] is List<SelectListItem> clients && clients.Any())
             {
                 @foreach (var client in clients)
                 {
-                    <option value="@client.Value" selected="@(client.Value == Model?.ClientId.ToString() ? "selected" : null)">
-                        @client.Text
-                    </option>
+                    <option value="@client.Value">@client.Text</option>
                 }
             }
             else
@@ -61,6 +59,25 @@
             }
         </select>
         <span asp-validation-for="ClientId" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label for="AgentId">Агент</label>
+        <select class="form-control" id="AgentId" name="AgentId" required>
+            @if (ViewData["Agents"] is List<SelectListItem> agents && agents.Any())
+            {
+                @foreach (var agent in agents)
+                {
+                    <option value="@agent.Value">@agent.Text</option>
+                }
+            }
+            else
+            {
+                <option value="">Нет доступных агентов</option>
+            }
+        </select>
+        <span asp-validation-for="AgentId" class="text-danger"></span>
     </div>
 
     <div class="form-group">

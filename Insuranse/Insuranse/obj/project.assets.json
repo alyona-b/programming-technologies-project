@@ -2852,11 +2852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 7\\Insuranse\\Insuranse\\Insuranse.csproj",
+      "projectUniqueName": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\бэкап\\7 агенты клиенты\\Insuranse\\Insuranse\\Insuranse.csproj",
       "projectName": "Insuranse",
-      "projectPath": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 7\\Insuranse\\Insuranse\\Insuranse.csproj",
+      "projectPath": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\бэкап\\7 агенты клиенты\\Insuranse\\Insuranse\\Insuranse.csproj",
       "packagesPath": "C:\\Users\\aaaaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\курсач 7\\Insuranse\\Insuranse\\obj\\",
+      "outputPath": "C:\\Users\\aaaaa\\учёба\\3 курс\\тп\\курсач 5\\бэкап\\7 агенты клиенты\\Insuranse\\Insuranse\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -3,7 +3,9 @@ using Insurance.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Insurance.Controllers
 {
@@ -57,7 +59,7 @@ namespace Insurance.Controllers
             var user = await _userManager.FindByIdAsync(userId);
             if (user == null)
             {
-                return NotFound();
+                return NotFound($"Пользователь с Id = {userId} не найден.");
             }
 
             // Удаляем текущие роли пользователя
@@ -68,14 +70,27 @@ namespace Insurance.Controllers
             var result = await _userManager.AddToRoleAsync(user, newRole);
             if (result.Succeeded)
             {
-                // Обновляем поле Role вручную
-                user.Role = newRole;
-                _context.Users.Update(user);
-                await _context.SaveChangesAsync();
+                // Если роль "Агент", добавляем данные в таблицу Agents
+                if (newRole == "Агент")
+                {
+                    var existingAgent = _context.Agents.FirstOrDefault(a => a.Email == user.Email);
+                    if (existingAgent == null)
+                    {
+                        var agent = new Agent
+                        {
+                            Name = user.Name,
+                            Email = user.Email,
+                            PhoneNumber = user.PhoneNumber
+                        };
+                        _context.Agents.Add(agent);
+                        await _context.SaveChangesAsync();
+                    }
+                }
 
                 return RedirectToAction("ManageUsers");
             }
 
+            ModelState.AddModelError("", "Не удалось обновить роль пользователя.");
             return RedirectToAction("ManageUsers");
         }
 
@@ -91,13 +106,21 @@ namespace Insurance.Controllers
             var user = await _userManager.FindByIdAsync(userId);
             if (user == null)
             {
-                return NotFound();
+                return NotFound($"Пользователь с Id = {userId} не найден.");
+            }
+
+            // Удаляем агента, если пользователь был агентом
+            var agent = _context.Agents.FirstOrDefault(a => a.Email == user.Email);
+            if (agent != null)
+            {
+                _context.Agents.Remove(agent);
+                await _context.SaveChangesAsync();
             }
 
             var result = await _userManager.DeleteAsync(user);
             if (!result.Succeeded)
             {
-                ModelState.AddModelError("", "Не удалось удалить пользователя");
+                ModelState.AddModelError("", "Не удалось удалить пользователя.");
             }
 
             return RedirectToAction("ManageUsers");
