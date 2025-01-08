@@ -1,35 +1,55 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity;
 using Insurance.Models;
 using Insurance.Data;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Insurance.Controllers
 {
-    [Authorize(Roles = "Администратор,Агент")]  // Ограничиваем доступ только для админов и агентов
+    [Authorize(Roles = "Администратор,Агент")]
     public class ClientsController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly UserManager<ApplicationUser> _userManager;
 
-        public ClientsController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
+        public ClientsController(ApplicationDbContext context)
         {
             _context = context;
-            _userManager = userManager;
         }
 
-        public async Task<IActionResult> Index()
+        // Метод для отображения всех клиентов и обработки поиска
+        public async Task<IActionResult> Index([FromQuery] Client searchModel)
         {
-            // Получение списка всех клиентов из таблицы Clients
-            var clients = await _context.Clients.ToListAsync();
-            return View(clients);
+            var query = _context.Clients.Include(c => c.Contracts).AsQueryable();
+
+            // Применение фильтров на основе введенных значений
+            if (!string.IsNullOrWhiteSpace(searchModel.Name))
+                query = query.Where(c => c.Name.Contains(searchModel.Name));
+
+            if (!string.IsNullOrWhiteSpace(searchModel.TaxId))
+                query = query.Where(c => c.TaxId.Contains(searchModel.TaxId));
+
+            if (!string.IsNullOrWhiteSpace(searchModel.PhoneNumber))
+                query = query.Where(c => c.PhoneNumber.Contains(searchModel.PhoneNumber));
+
+            if (!string.IsNullOrWhiteSpace(searchModel.Email))
+                query = query.Where(c => c.Email.Contains(searchModel.Email));
+
+            if (!string.IsNullOrWhiteSpace(searchModel.UserType))
+                query = query.Where(c => c.UserType.Contains(searchModel.UserType));
+
+            // Выполнение запроса
+            var clients = await query.OrderBy(c => c.Name).ToListAsync();
+
+            // Сохранение значений формы в ViewData для их повторного отображения
+            ViewData["Name"] = searchModel.Name;
+            ViewData["TaxId"] = searchModel.TaxId;
+            ViewData["PhoneNumber"] = searchModel.PhoneNumber;
+            ViewData["Email"] = searchModel.Email;
+            ViewData["UserType"] = searchModel.UserType;
+
+            return View(clients); // Возвращаем те же данные в представление Index.cshtml
         }
-
-
-
     }
 }

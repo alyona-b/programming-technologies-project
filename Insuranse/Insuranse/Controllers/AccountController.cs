@@ -109,6 +109,7 @@ namespace Insurance.Controllers
                 .Include(c => c.Agent)
                 .Include(c => c.Service)
                 .Where(c => c.Client.Email == userEmail || c.Agent.Email == userEmail)
+                .OrderBy(c => c.ContractNumber)
                 .ToListAsync();
 
             // Отфильтровать проблемные контракты

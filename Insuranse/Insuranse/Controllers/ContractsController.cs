@@ -24,6 +24,7 @@ namespace Insurance.Controllers
                 .Include(c => c.Client)  // Жадная загрузка клиента
                 .Include(c => c.Agent)   // Жадная загрузка агента
                 .Include(c => c.Service) // Жадная загрузка услуги
+                .OrderBy(c => c.ContractNumber) // Сортировка по номеру договора
                 .ToListAsync();
 
             return View(contracts);
@@ -352,7 +353,8 @@ namespace Insurance.Controllers
             if (searchModel.EndDate != default)
                 query = query.Where(c => c.EndDate == searchModel.EndDate);
 
-            var contracts = await query.ToListAsync();
+            // Сортировка по номеру договора в порядке возрастания
+            var contracts = await query.OrderBy(c => c.ContractNumber).ToListAsync();
 
             // Передача данных для сохранения значений формы
             ViewData["ContractNumber"] = searchModel.ContractNumber;

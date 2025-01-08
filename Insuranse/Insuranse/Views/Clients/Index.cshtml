@@ -4,28 +4,85 @@
     <link rel="stylesheet" href="~/css/tables.css" />
 </head>
 
-<h2>Справочник клиентов</h2>
+@{
+    ViewData["Title"] = "Поиск клиентов";
+    var searchModel = ViewData["SearchModel"] as Insurance.Models.Client ?? new Insurance.Models.Client();
+}
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Имя</th>
-            <th>ИНН</th>
-            <th>Телефон</th>
-            <th>Email</th>
-            <th>Тип клиента</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var client in Model)
-        {
+<form method="get">
+    <div class="form-group">
+        <label for="Name">ФИО клиента</label>
+        <input type="text" class="form-control" id="Name" name="Name" value="@ViewData["Name"]" />
+    </div>
+
+    <div class="form-group">
+        <label for="TaxId">ИНН клиента</label>
+        <input type="text" class="form-control" id="TaxId" name="TaxId" value="@ViewData["TaxId"]" maxlength="10" />
+    </div>
+
+    <div class="form-group">
+        <label for="PhoneNumber">Телефон</label>
+        <input type="text" class="form-control" id="PhoneNumber" name="PhoneNumber" value="@ViewData["PhoneNumber"]" maxlength="11" />
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Электронная почта</label>
+        <input type="email" class="form-control" id="Email" name="Email" value="@ViewData["Email"]" />
+    </div>
+
+    <div class="form-group">
+        <label for="UserType">Тип клиента</label>
+        <input type="text" class="form-control" id="UserType" name="UserType" value="@ViewData["UserType"]" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Поиск</button>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <h3>Клиенты:</h3>
+    <table class="table">
+        <thead>
             <tr>
-                <td>@client.Name</td>
-                <td>@client.TaxId</td>
-                <td>@client.PhoneNumber</td>
-                <td>@client.Email</td>
-                <td>@client.UserType</td>
+                <th>ФИО клиента</th>
+                <th>ИНН</th>
+                <th>Телефон</th>
+                <th>Электронная почта</th>
+                <th>Тип клиента</th>
+                <th>Контракты</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var client in Model)
+            {
+                <tr>
+                    <td>@client.Name</td>
+                    <td>@client.TaxId</td>
+                    <td>@client.PhoneNumber</td>
+                    <td>@client.Email</td>
+                    <td>@client.UserType</td>
+                    <td>
+                        @if (client.Contracts != null && client.Contracts.Any())
+                        {
+                            <ul>
+                                @foreach (var contract in client.Contracts)
+                                {
+                                    <li>@contract.ContractNumber</li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <p>Нет контрактов</p>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Клиенты не найдены.</p>
+}
+
