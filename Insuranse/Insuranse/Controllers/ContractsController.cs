@@ -309,15 +309,18 @@ namespace Insurance.Controllers
                 return NotFound();
             }
 
-            // Проверяем, что клиент имеет доступ к этому договору
+            // Получаем текущего пользователя
             var userEmail = User.Identity.Name;
-            if (contract.Client.Email != userEmail && contract.Agent.Email != userEmail)
+
+            // Разрешаем доступ агенту, независимо от того, является ли он связанным с этим договором
+            if (contract.Client.Email != userEmail && contract.Agent.Email != userEmail && !User.IsInRole("Агент"))
             {
-                return Forbid();  // Запрещаем доступ, если клиент или агент не совпадают с пользователем
+                return Forbid();  // Запрещаем доступ, если не клиент, не агент и не администратор
             }
 
             return View(contract);
         }
+
 
         [Authorize(Roles = "Администратор,Агент")]
         public async Task<IActionResult> Search([FromQuery] Contract searchModel)

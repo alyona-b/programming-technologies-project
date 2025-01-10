@@ -3,60 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\controllers\\contractscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|solutionrelative:testinsurance\\controllers\\contractscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\models\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\models\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\controllers\\contractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\controllers\\contractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\controllers\\clientscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|solutionrelative:testinsurance\\controllers\\clientscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\controllers\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|solutionrelative:testinsurance\\controllers\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\contracts\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\contracts\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\contracts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\contracts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\contracts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\contracts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,32 +15,124 @@
       "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\controllers\\servicescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|solutionrelative:testinsurance\\controllers\\servicescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\contracts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\contracts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\controllers\\servicesconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\controllers\\servicesconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\contracts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\contracts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\contracts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\contracts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\contracts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\contracts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\models\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\models\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\controllers\\clientscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|solutionrelative:testinsurance\\controllers\\clientscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\controllers\\homecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|solutionrelative:testinsurance\\controllers\\homecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
-      "RelativeMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|solutionrelative:testinsurance\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+      "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\controllers\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|solutionrelative:testinsurance\\controllers\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\testinsurance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|solutionrelative:testinsurance\\testinsurance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\insuranse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\insuranse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\controllers\\servicesconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\controllers\\servicesconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\account\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\account\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\controllers\\contractscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|solutionrelative:testinsurance\\controllers\\contractscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\contracts\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\contracts\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\insuranse\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A598F6F-AB12-4E3B-B58D-7FEF2AFE5439}|Insuranse\\Insuranse.csproj|solutionrelative:insuranse\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\controllers\\servicescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|solutionrelative:testinsurance\\controllers\\servicescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
+      "RelativeMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|solutionrelative:testinsurance\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FB85411-5392-41DE-AB03-6BB1FC110AA6}|TestInsurance\\TestInsurance.csproj|c:\\users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\insuranse\\testinsurance\\appsettings.test.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -106,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 364,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,56 +154,160 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Contract.cs",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Contract.cs",
-              "RelativeDocumentMoniker": "Insuranse\\Models\\Contract.cs",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Contract.cs",
-              "RelativeToolTip": "Insuranse\\Models\\Contract.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T15:48:50.428Z"
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Insuranse\\Views\\Contracts\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Edit.cshtml",
+              "RelativeToolTip": "Insuranse\\Views\\Contracts\\Edit.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T06:02:08.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Insuranse\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Insuranse\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T19:58:56.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ContractsControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\Controllers\\ContractsControllerTests.cs",
-              "RelativeDocumentMoniker": "TestInsurance\\Controllers\\ContractsControllerTests.cs",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\Controllers\\ContractsControllerTests.cs",
-              "RelativeToolTip": "TestInsurance\\Controllers\\ContractsControllerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Title": "ContractsController.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\ContractsController.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Controllers\\ContractsController.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\ContractsController.cs",
+              "RelativeToolTip": "Insuranse\\Controllers\\ContractsController.cs",
+              "ViewState": "AgIAACQBAAAAAAAAAADwv0IBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T15:39:24.889Z",
+              "WhenOpened": "2025-01-08T13:44:47.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Insuranse\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowHcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T20:29:25.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Details.cshtml",
+              "RelativeDocumentMoniker": "Insuranse\\Views\\Contracts\\Details.cshtml",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Details.cshtml",
+              "RelativeToolTip": "Insuranse\\Views\\Contracts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T05:51:57.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Insuranse\\Views\\Contracts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Index.cshtml",
+              "RelativeToolTip": "Insuranse\\Views\\Contracts\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T14:19:59.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Create.cshtml",
+              "RelativeDocumentMoniker": "Insuranse\\Views\\Contracts\\Create.cshtml",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Create.cshtml",
+              "RelativeToolTip": "Insuranse\\Views\\Contracts\\Create.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T14:37:21.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Contract.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Contract.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Models\\Contract.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Contract.cs",
+              "RelativeToolTip": "Insuranse\\Models\\Contract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T15:48:50.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ClientsControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\Controllers\\ClientsControllerTests.cs",
               "RelativeDocumentMoniker": "TestInsurance\\Controllers\\ClientsControllerTests.cs",
               "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\Controllers\\ClientsControllerTests.cs",
               "RelativeToolTip": "TestInsurance\\Controllers\\ClientsControllerTests.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAmwDoAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T13:43:53.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Insuranse\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Insuranse\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T20:42:21.487Z"
+              "WhenOpened": "2025-01-08T13:43:53.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "HomeControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\Controllers\\HomeControllerTests.cs",
+              "RelativeDocumentMoniker": "TestInsurance\\Controllers\\HomeControllerTests.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\Controllers\\HomeControllerTests.cs",
+              "RelativeToolTip": "TestInsurance\\Controllers\\HomeControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T20:02:09.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "Insuranse\\Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T13:41:52.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Insuranse\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:58:07.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AccountControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\Controllers\\AccountControllerTests.cs",
               "RelativeDocumentMoniker": "TestInsurance\\Controllers\\AccountControllerTests.cs",
@@ -175,31 +319,187 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ContractsController.cs",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\ContractsController.cs",
-              "RelativeDocumentMoniker": "Insuranse\\Controllers\\ContractsController.cs",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\ContractsController.cs",
-              "RelativeToolTip": "Insuranse\\Controllers\\ContractsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T13:44:47.369Z"
+              "DocumentIndex": 13,
+              "Title": "TestInsurance.csproj",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\TestInsurance.csproj",
+              "RelativeDocumentMoniker": "TestInsurance\\TestInsurance.csproj",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\TestInsurance.csproj",
+              "RelativeToolTip": "TestInsurance\\TestInsurance.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-07T19:54:40.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClientsController.cs",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\ClientsController.cs",
-              "RelativeDocumentMoniker": "Insuranse\\Controllers\\ClientsController.cs",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\ClientsController.cs",
-              "RelativeToolTip": "Insuranse\\Controllers\\ClientsController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T13:41:52.821Z"
+              "DocumentIndex": 14,
+              "Title": "Insuranse.csproj",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Insuranse.csproj",
+              "RelativeDocumentMoniker": "Insuranse\\Insuranse.csproj",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Insuranse.csproj",
+              "RelativeToolTip": "Insuranse\\Insuranse.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-09T23:44:09.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Insuranse\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:02:24.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Models\\Service.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Service.cs",
+              "RelativeToolTip": "Insuranse\\Models\\Service.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T13:37:03.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Client.cs",
+              "RelativeToolTip": "Insuranse\\Models\\Client.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T13:42:55.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServicesConroller.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\ServicesConroller.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Controllers\\ServicesConroller.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\ServicesConroller.cs",
+              "RelativeToolTip": "Insuranse\\Controllers\\ServicesConroller.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwBQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T13:44:55.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Agent.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Agent.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Models\\Agent.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Agent.cs",
+              "RelativeToolTip": "Insuranse\\Models\\Agent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:02:05.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Insuranse\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwBUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T13:41:19.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Models\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\UserViewModel.cs",
+              "RelativeToolTip": "Insuranse\\Models\\UserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:03:38.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Insuranse\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:03:17.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Insuranse\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:03:06.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Models\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "Insuranse\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:02:57.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Account\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Insuranse\\Views\\Account\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Account\\Dashboard.cshtml",
+              "RelativeToolTip": "Insuranse\\Views\\Account\\Dashboard.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T17:23:16.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ContractsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\Controllers\\ContractsControllerTests.cs",
+              "RelativeDocumentMoniker": "TestInsurance\\Controllers\\ContractsControllerTests.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\Controllers\\ContractsControllerTests.cs",
+              "RelativeToolTip": "TestInsurance\\Controllers\\ContractsControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T15:39:24.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Insuranse\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Insuranse\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T20:42:21.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Clients\\Index.cshtml",
               "RelativeDocumentMoniker": "Insuranse\\Views\\Clients\\Index.cshtml",
@@ -211,31 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "Insuranse\\Models\\Client.cs",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Client.cs",
-              "RelativeToolTip": "Insuranse\\Models\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T13:42:55.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Service.cs",
-              "RelativeDocumentMoniker": "Insuranse\\Models\\Service.cs",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Models\\Service.cs",
-              "RelativeToolTip": "Insuranse\\Models\\Service.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T13:37:03.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 29,
               "Title": "Search.cshtml",
               "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Search.cshtml",
               "RelativeDocumentMoniker": "Insuranse\\Views\\Contracts\\Search.cshtml",
@@ -247,31 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Create.cshtml",
-              "RelativeDocumentMoniker": "Insuranse\\Views\\Contracts\\Create.cshtml",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Create.cshtml",
-              "RelativeToolTip": "Insuranse\\Views\\Contracts\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-08T14:37:21.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Index.cshtml",
-              "RelativeDocumentMoniker": "Insuranse\\Views\\Contracts\\Index.cshtml",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Contracts\\Index.cshtml",
-              "RelativeToolTip": "Insuranse\\Views\\Contracts\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-08T14:19:59.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 30,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Insuranse\\Views\\Shared\\_Layout.cshtml",
@@ -283,19 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Insuranse\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Insuranse\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAowGYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T20:29:25.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 31,
               "Title": "ServicesControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\Controllers\\ServicesControllerTests.cs",
               "RelativeDocumentMoniker": "TestInsurance\\Controllers\\ServicesControllerTests.cs",
@@ -307,67 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ServicesConroller.cs",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\ServicesConroller.cs",
-              "RelativeDocumentMoniker": "Insuranse\\Controllers\\ServicesConroller.cs",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\ServicesConroller.cs",
-              "RelativeToolTip": "Insuranse\\Controllers\\ServicesConroller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T13:44:55.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Insuranse\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Insuranse\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-07T19:58:56.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Insuranse\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Insuranse\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T13:41:19.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HomeControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\Controllers\\HomeControllerTests.cs",
-              "RelativeDocumentMoniker": "TestInsurance\\Controllers\\HomeControllerTests.cs",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\Controllers\\HomeControllerTests.cs",
-              "RelativeToolTip": "TestInsurance\\Controllers\\HomeControllerTests.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAwEUAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T20:02:09.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Insuranse\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\Insuranse\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Insuranse\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T19:58:07.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": ".editorconfig",
               "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\.editorconfig",
               "RelativeDocumentMoniker": "TestInsurance\\.editorconfig",
@@ -378,19 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TestInsurance.csproj",
-              "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\TestInsurance.csproj",
-              "RelativeDocumentMoniker": "TestInsurance\\TestInsurance.csproj",
-              "ToolTip": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\TestInsurance.csproj",
-              "RelativeToolTip": "TestInsurance\\TestInsurance.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-07T19:54:40.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "appsettings.test.json",
               "DocumentMoniker": "C:\\Users\\aaaaa\\\u0443\u0447\u0451\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\\u0442\u043F\\\u043A\u0443\u0440\u0441\u0430\u0447 5\\\u043A\u0443\u0440\u0441\u0430\u0447 8\\Insuranse\\TestInsurance\\appsettings.test.json",
               "RelativeDocumentMoniker": "TestInsurance\\appsettings.test.json",
